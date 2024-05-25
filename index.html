@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Header Section Start-->
+  <header class="header-container">
+    <nav>
+      <ul>
+        <li class="menu-item"><a href="#home">Home</a></li>
+        
+        <li class="menu-item"><a href="#about">About</a></li>
+        <li class="menu-item"><a href="#product">Product</a></li>
+        <li class="menu-item"><a href="#contact">Contact</a></li>
+        <li class="menu-item"><a href="#blog">Blog</a></li>
+        
+        <li class="menu-item">
+          <button>
+            <span>Login</span>
+            <i class="fa-solid fa-right-to-bracket"></i>
+          </button>
+        </li>
+        <li class="menu-item">
+          <button>
+            <span>Logout</span>
+            <i class="fa-solid fa-right-to-bracket"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header> <!--Header Section End-->
+
+  <!--Main Section Start-->
+  <main>
+    <!--Banner Section Start-->
+    <section id="home" class="banner-cotainer">
+      <img src="asset/banner.jpg" alt="">
+    </section><!--Banner Section End-->
+
+    <!--Product Section Start-->
+    <section id="product">
+
+      <h1 style="text-align: center; margin: 20px 0; font-weight: 500; font-size: 32px;color: #1E2738;">
+        <span style="border-bottom: 2px solid #1E2738; font-weight: bold;">
+          Our Products
+        </span>
+      </h1>
+
+
+      <div class="card-container">
+        <!--Single Card Start-->
+        <div class="furniture-card">
+          <img class="" style="width: 70%; height: 50%;" src="asset/aggregate.jpg" alt="">
+          <h3 style="padding: 8px;">Coarse Aggregate</h3>
+          <h4 style="padding: 4px;">Price 100$</h4>
+          <button style="padding: 4px; margin-top:8px;">Add to Cart</button>
+          </div>
+          <div class="furniture-card">
+          <img class="" style="width: 70%; height: 50%;" src="asset/brick.jpg" alt="">
+          <h3 style="padding: 8px;">Brick</h3>
+          <h4 style="padding: 4px;">Price 80$</h4>
+          <button style="padding: 4px; margin-top:8px;">Add to Cart</button>
+          </div>
+          <div class="furniture-card">
+          <img class="" style="width: 70%; height: 50%;" src="asset/cement.jpg" alt="">
+          <h3 style="padding: 8px;">Cement</h3>
+          <h4 style="padding: 4px;">Price 105$</h4>
+          <button style="padding: 4px; margin-top:8px;">Add to Cart</button>
+          </div>
+          <div class="furniture-card">
+          <img class="" style="width: 70%; height: 50%;" src="asset/sand2.jpg" alt="">
+          <h3 style="padding: 8px;">Sand</h3>
+          <h4 style="padding: 4px;">Price 60$</h4>
+          <button style="padding: 4px; margin-top:8px;">Add to Cart</button>
+          </div>
+          </div>
+          
+          </section><!--Product Section End-->
+          
+          <!--About Us Section Start-->
+          <section id="about">
+          
+            <h1 style="text-align: center; margin: 20px 0; font-weight: 500; font-size: 32px;color: #1E2738;">
+              <span style="border-bottom: 2px solid #1E2738; font-weight: bold; padding: 0 16px;">
+                About Us
+              </span>
+            </h1>
+          
+          
+            <div class="contactus-container">
+          
+          
+              <!--About Us-->
+              <div>
+                <p style="text-align: center; margin: 0 16px;">
+                  Construct Ltd. is a leading construction company specializing in residential, commercial, and infrastructure projects. Founded in 2000, the company has built a reputation for delivering high-quality construction services on time and within budget.Construct Ltd. employs a team of skilled professionals, including architects, engineers, and project managers, who work collaboratively to ensure each project meets client specifications and industry standards. The company's portfolio includes luxury homes, office buildings, and public infrastructure projects, reflecting a commitment to innovation, sustainability, and excellence in construction. 
+                
+                  </p>
+              </div>
+          
+            </div>
+          </section><!--About Us Section End-->
+          
+          
+          <!--Contact Us Section Start-->
+          <section id="contact">
+          
+            <h1 style="text-align: center; margin: 20px 0; font-weight: 500; font-size: 32px;color: #1E2738;">
+              <span style="border-bottom: 2px solid #1E2738; font-weight: bold;">
+                Contact Us
+              </span>
+            </h1>
+            <div class="contactus-container">
+              <!--Contact Us Image-->
+              <div>
+                <img src="asset/contact us 2 remove.png" alt="">
+              </div>
+          
+              <!--Contact Us Form-->
+              <div style="margin-top: 36px;">
+                <form class="form-container">
+                  <label for="fulName">Full Name</label>
+                  <input type="text" id="fulName">
+                  <label for="address">Address</label>
+                  <input type="text" id="address">
+                  <label for="email">Email</label>
+                  <input type="email" id="email">
+                  <label for="phone">Phone Number</label>
+                  <input type="number" id="phone">
+                  <label for="comment">Comment</label>
+                  <textarea id="comment" rows="6" cols="40"></textarea>
+                  <button><a href="#">Submit</a></button>
+                </form>
+              </div>
+            </div>
+    </section><!--Contact Us Section End-->
+   
+
+
+    <section class="samia">
+      <div class="hero min-h-screen bg-sky-500">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src="asset/learnMore.avif" class="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold">Learn About Us</h1>
+            <p class="py-6">Construct Ltd. is a premier construction company known for high quality residential, commercial and infrastructure projects</p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero min-h-screen bg-indigo-700">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="text-center lg:text-left">
+            <h1 class="text-5xl font-bold">Login now!</h1>
+           
+          </div>
+          <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <form class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input type="email" placeholder="email" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Password</span>
+                </label>
+                <input type="password" placeholder="password" class="input input-bordered" required />
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                </label>
+              </div>
+              <div class="form-control mt-6">
+                <button class="btn btn-primary">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+          <button style="margin: 4px 16px;">Read More</button>
+    
+        </div>
+      </div>
+    
+    </section>
+
+
+  </main><!--Main Section End-->
+
+
+
+  <!--footer section start-->
+  <footer class="footer p-10 bg-gray-900 text-white text-xl">
+    <nav>
+      <h6 class="footer-title">Services</h6> 
+      <a class="link link-hover">Branding</a>
+      <a class="link link-hover">Design</a>
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title">Company</h6> 
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title">Social</h6> 
+      <div class="grid grid-flow-col gap-4">
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+      </div>
+    </nav>
+    
+  </footer><!--footer section end-->
+
+  <footer>
+    
+  </footer>
+</body>
+
+</html>
